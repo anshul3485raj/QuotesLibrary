@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="motivational">Motivational</string>
+    <string name="love">Attitude</string>
+    <string name="cute_quotes">Cute quotes</string>
+    <string name="serious">Friendship</string>
+    <string name="join_us">Join us</string>
+    <string name="share">Share</string>
+    <string name="funny">Funny</string>
+    <string name="home">Home</string>
+    <string name="l">I love you</string>
+    <string name="help">Help</string>
+    <string name="life">Life</string>
+    <string name="collections">Collections</string>
+    <string name="favorites">Favorites</string>
+    <string name="savage">savage</string>
+    <string name="success">success</string>
+    <string name="sport">sport</string>
+</resources>

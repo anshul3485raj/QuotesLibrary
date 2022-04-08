@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Quotes Library</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: change ads id for your ads -->
+    <string name="ae">ca-app-pub-7479732637897937/7086122764</string>
+    <string name="ad9View">ca-app-pub-7479732637897937/8547616541</string>
+    <string name="ad10View">ca-app-pub-7479732637897937/7589758090</string>
+
+    <string name="ad11View">ca-app-pub-7479732637897937/3267369707</string>
+    <string name="ad12View">ca-app-pub-7479732637897937/1500768560</string>
+    <string name="earn">ca-app-pub-7479732637897937/2036478277</string>
+    <string name="earn2">ca-app-pub-7479732637897937/2480901640</string>
+    <string name="earn3">ca-app-pub-7479732637897937/1359391667</string>
+    <string name="es">ca-app-pub-7479732637897937/5669755857</string>
+    <string name="earn4">ca-app-pub-7479732637897937/8702980477</string>
+    <string name="earn5">ca-app-pub-7479732637897937/5276362049</string>
+    <string name="banner_ad_unit_id">ca-app-pub-7479732637897937/5669755857</string>
+
+
+    <string name="hello_blank_fragment2">hey, I need some programmer and graphic designer if you are intrested then mail me here anshul348567890123@gmail.com or we can have chat on instagram , our instagram id - hoogle.inc</string>
+    <string name="motivational">Motivational</string>
+    <string name="love">Attitude</string>
+    <string name="cute_quotes">Cute quotes</string>
+
+    <string name="join_us">Join us</string>
+    <string name="share">Share</string>
+    <string name="funny">Funny</string>
+    <string name="home">Home</string>
+    <string name="l">I love you</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="help">help</string>
+    <string name="life">Life</string>
+
+    <!-- TODO anshul raj, add update notification fragment -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="collections">Collections</string>
+    <string name="favorites">Favorites</string>
+    <string name="savage">savage</string>
+    <string name="success">success</string>
+    <string name="positive">positive</string>
+    <string name="sport">sport</string>
+
+</resources>

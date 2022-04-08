@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".BlankFragment3">
+    <RelativeLayout android:orientation="horizontal"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/tr" android:layout_width="match_parent" android:layout_height="match_parent">
+        <WebView android:id="@+id/hu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.google.android.gms.ads.AdView
+            android:orientation="horizontal"
+            android:id="@+id/ad9View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hu"
+            android:layout_centerHorizontal="true"
+            app:adSize="BANNER" app:adUnitId="@string/ad9View" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/ad10View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ad9View"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            app:adSize="BANNER"
+
+            app:adUnitId="@string/ad10View" />
+        <com.google.android.gms.ads.AdView
+            android:orientation="horizontal"
+            android:id="@+id/ad11View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ad10View"
+            app:adSize="BANNER"
+            android:layout_centerHorizontal="true"
+            app:adUnitId="@string/ad11View" />
+        <com.google.android.gms.ads.AdView
+            android:orientation="horizontal"
+            android:id="@+id/ad12View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ad11View"
+            app:adSize="BANNER"
+            android:layout_centerHorizontal="true"
+            app:adUnitId="@string/ad12View" />
+        <com.google.android.gms.ads.AdView
+            android:orientation="horizontal"
+            android:id="@+id/earn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ad14View"
+            app:adSize="BANNER"
+            android:layout_centerHorizontal="true"
+            app:adUnitId="@string/earn" />
+        <com.google.android.gms.ads.AdView
+            android:orientation="horizontal"
+            android:id="@+id/earn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/earn1"
+            app:adSize="BANNER"
+            android:layout_centerHorizontal="true"
+            app:adUnitId="@string/earn2" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/earn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/earn2"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            app:adSize="BANNER"
+            app:adUnitId="@string/earn3" />
+        <com.google.android.gms.ads.AdView
+            android:orientation="horizontal"
+            android:id="@+id/earn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/earn3"
+            app:adSize="BANNER"
+            android:layout_centerHorizontal="true"
+            app:adUnitId="@string/earn4" />
+        <com.google.android.gms.ads.AdView
+            android:orientation="horizontal"
+            android:id="@+id/earn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/earn4"
+            app:adSize="BANNER"
+            android:layout_centerHorizontal="true"
+            app:adUnitId="@string/earn5" />
+        <com.google.android.gms.ads.AdView
+            android:orientation="horizontal"
+            android:id="@+id/ad13View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ad12View"
+            app:adSize="BANNER"
+            android:layout_centerHorizontal="true"
+            app:adUnitId="@string/ad10View" />
+        <com.google.android.gms.ads.AdView
+            android:orientation="horizontal"
+            android:id="@+id/ad14View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ad13View"
+            app:adSize="BANNER"
+            android:layout_centerHorizontal="true"
+            app:adUnitId="@string/ad9View" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            >
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:id="@+id/progressBar"
+
+
+                android:color="#41ADEB"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>
+
+
+
+

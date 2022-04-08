@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/side_nav_bar"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/content_main" />
+    <!--
+      <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            app:layout_anchor="@+id/include2"
+            app:layout_anchorGravity="right|bottom"
+            app:srcCompat="@android:drawable/ic_dialog_email" /> -->
+
+    <!-- <ImageView
+         android:id="@+id/imageView8"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         app:srcCompat="@drawable/fab_add" />-->
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fab32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/fab_add"
+        app:fab_colorNormal="#DA4336"
+        app:fab_colorPressed="#E75043"
+        app:fab_colorRipple="#99FFFFFF"
+        app:fab_showShadow="true"
+        app:fab_shadowColor="#66000000"
+        app:fab_shadowRadius="4dp"
+        app:fab_shadowXOffset="1dp"
+        app:fab_shadowYOffset="3dp"
+        app:fab_size="normal"
+        app:fab_showAnimation="@anim/fab_scale_up"
+        app:fab_hideAnimation="@anim/fab_scale_down"
+        app:fab_label=""
+        app:fab_progress_color="#FF009688"
+        app:fab_progress_backgroundColor="#4D000000"
+        app:fab_progress_indeterminate="false"
+        app:fab_progress_max="100"
+        app:fab_progress="0"
+        app:fab_progress_showBackground="true">
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/item1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_dialog_email"
+            app:fab_size="mini"
+            app:fab_label="Feedback" />
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/item2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu_share"
+            app:fab_size="mini"
+            app:fab_label="share news blender with other " />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/item3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_p"
+            app:fab_label="@string/join_us"
+            app:fab_size="mini"
+            app:layout_anchor="@+id/fab32"
+            app:layout_anchorGravity="center" />
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+</android.support.design.widget.CoordinatorLayout>
